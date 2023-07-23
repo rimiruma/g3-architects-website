@@ -7,8 +7,15 @@
     font-family: 'open-sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-btn-prmary{
-    
+.btn-primary{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
 }
 
 /* header styles */
@@ -55,4 +62,35 @@ text-align: center;
     font-weight: 700;
     cursor: #131313;
 }
+
+.banner-description{
+    color: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* responsive media Queries */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    
+}
+header{
+    padding: 20px;
+}
+nav{
+    flex-wrap: column;
+}
+/* tablat or medium devices */
+@media screen and (main-width:576px) and(max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
+} 
+    
 
